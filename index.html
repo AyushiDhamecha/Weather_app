@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Weather App</title>
+</head>
+
+<body id="bg">
+    <div class="container">
+        <h1 id="title">Cheack Current Weather</h1>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name">
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="error">
+
+                <img src="images/404.png" class="errimg">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+                <div>
+                    <div class="location">
+                        <div class="location-icon"><i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h1 class="city">Jamnagar</h1>
+                    </div>
+
+
+                    <img src="images/clear.png" class="weather-icon">
+
+                    <h1 class="temp">22°c</h1>
+
+                    <h3 class="weather-name">clear sky</h3>
+                </div>
+
+                <div class="detail">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <h4 class="humidity">50%</h4>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="images/storm.png">
+                        <div>
+                            <h4 class="wind">12 km/h</h4>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
